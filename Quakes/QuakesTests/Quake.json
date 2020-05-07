@@ -12,7 +12,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"mag": 1.29,
+				"mag": null,
 				"place": "10km SSW of Idyllwild, CA",
 				"time": 1388620296020,
 				"updated": 1457728844428,
