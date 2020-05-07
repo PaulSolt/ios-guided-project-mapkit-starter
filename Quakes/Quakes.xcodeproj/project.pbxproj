@@ -21,6 +21,7 @@
 		BD48253F236B3C4400FC12E9 /* Quake.json in Resources */ = {isa = PBXBuildFile; fileRef = BD48253D236B3C4400FC12E9 /* Quake.json */; };
 		BD482540236B3C4400FC12E9 /* QuakeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48253E236B3C4400FC12E9 /* QuakeData.swift */; };
 		BD6DDD1B23993CB100CA2A91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD6DDD1A23993CB100CA2A91 /* Main.storyboard */; };
+		BD7ACD8224647BB3007EB133 /* Quake+MKAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7ACD8124647BB3007EB133 /* Quake+MKAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		BD482541236B3C4F00FC12E9 /* QuakeDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuakeDetailView.swift; sourceTree = "<group>"; };
 		BD69304923F5DDAA00C0DF09 /* QuakeFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeFetcher.swift; sourceTree = "<group>"; };
 		BD6DDD1A23993CB100CA2A91 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BD7ACD8124647BB3007EB133 /* Quake+MKAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quake+MKAnnotation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				BD48253B236B3BD500FC12E9 /* EarthquakesViewController.swift */,
 				BD482541236B3C4F00FC12E9 /* QuakeDetailView.swift */,
 				BD090C7224646CD100696052 /* Quake.swift */,
+				BD7ACD8124647BB3007EB133 /* Quake+MKAnnotation.swift */,
 				BD69304923F5DDAA00C0DF09 /* QuakeFetcher.swift */,
 				BD090C792464784200696052 /* QuakeResults.swift */,
 				BD6DDD1A23993CB100CA2A91 /* Main.storyboard */,
@@ -231,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD7ACD8224647BB3007EB133 /* Quake+MKAnnotation.swift in Sources */,
 				BD090C77246474D700696052 /* QuakeFetcher.swift in Sources */,
 				BD48251A236B3B6600FC12E9 /* AppDelegate.swift in Sources */,
 				BD090C7A2464784200696052 /* QuakeResults.swift in Sources */,
