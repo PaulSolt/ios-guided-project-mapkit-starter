@@ -8,6 +8,14 @@
 
 import Foundation
 
+struct QuakeResults: Decodable {
+    enum CodingKeys: String, CodingKey {
+        case quakes = "features"
+    }
+    
+    let quakes: [Quake]
+}
+
 // To put annotations on the map, we need to conform to a protocol that requires NSObject
 // Objc class
 class Quake: NSObject, Decodable {
