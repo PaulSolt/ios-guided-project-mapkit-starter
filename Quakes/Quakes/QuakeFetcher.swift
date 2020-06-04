@@ -50,6 +50,8 @@ class QuakeFetcher {
             URLQueryItem(name: "starttime", value: startTime),
             URLQueryItem(name: "endtime", value: endTime),
             URLQueryItem(name: "format", value: "geojson"),
+            URLQueryItem(name: "orderby", value: "magnitude"),
+            URLQueryItem(name: "minmagnitude", value: "2"),
         ]
         
         urlComponents?.queryItems = queryItems
@@ -82,7 +84,8 @@ class QuakeFetcher {
                 // TODO: Implement decoding and completion call
 
                 let decoder = JSONDecoder()
-
+                decoder.dateDecodingStrategy = .millisecondsSince1970
+                
                 let quakeResults = try decoder.decode(QuakeResults.self, from: data)
 
                 DispatchQueue.main.async {
